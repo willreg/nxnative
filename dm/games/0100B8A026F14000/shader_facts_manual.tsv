@@ -1,3 +1,4 @@
+# Retained from PR #289 (1842ed09); the uint output also supplied by PR #304 (3b32d7d6).
 # Hand-written facts the machine code cannot give (merged over the generated table by shader_split.py): the texture type of the handles the shaders read from a
 # constant buffer (a texture list) and of the images they write.  Without an answer the translator assumes 2D and the host then finds a type mismatch at run time.
 0647a88c955fcc6e	{"tex":{"128":"buffer","129":"buffer"}}
